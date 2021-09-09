@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class binaryadder {
 
 	public static void main(String[] args) {
-		@SuppressWarnings("resource") //Java kept yelling at me for a resource leak.. so I added this suppression.
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("\nProvide two 4-bit binary values, in two separate inputs.\nThey will be added and converted into decimal!\n");
 
